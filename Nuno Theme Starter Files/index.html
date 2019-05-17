@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nuno - Responsive Bootstrap Theme</title>
+    <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="css/fixed.css" /> -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body data-spy="scroll" data-target="#navbarResponsive">
+    <!--- Start home Section -->
+    <div id="home" class="offset">
+      <!-- .navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <h6 id="navbar-brand"></h6>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active ">
+              <a class="nav-link" href="#home">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#course">Best</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#course2">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Nouveau dossier/index.html">Command</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#ending">Contact Us</a>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav navright ml-auto ">
+            <li class="nav-item">
+              <a id="btnLogout" class="nav-link hide" href="#"
+                ><i class="fas fa-sign-out-alt"></i>
+
+                Log out</a
+              >
+            </li>
+            <li id="btnLogin" class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fas fa-sign-in-alt"></i>
+
+                Login</a
+              >
+            </li>
+            <li class="nav-item">
+              <a id="btnSignup" class="nav-link" href="#"
+                ><i class="fas fa-user-alt"></i>
+
+                Sign Up</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- /.navbar -->
+      <div id="gethim" class="loginbox">
+        <img src="" class="user" alt="" />
+        <h2>Log In here</h2>
+        <a href="#" class="close"></a>
+
+        <form action="">
+          <!-- <p>Email</p> -->
+          <input type="email" id="email" placeholder="Enter your email" />
+
+          <!-- <p>Password</p> -->
+          <input
+            type="password"
+            id="password"
+            name=""
+            placeholder="Your password"
+          />
+          <input type="submit" name="" id="loginSubmit" />
+        </form>
+      </div>
+
+      <div id="gethim2" class="loginbox2">
+        <img src="" class="user" alt="" />
+        <h2>Sign Up here</h2>
+        <a href="#" class="close2"></a>
+
+        <form id="contactForm">
+          <p>Name</p>
+          <input
+            type="text"
+            name=""
+            id="name2"
+            placeholder="Name and Surname"
+          />
+          <p>Email</p>
+          <input type="email" id="email2" placeholder="Enter your email" />
+          <p>Password</p>
+          <input
+            type="password"
+            id="password2"
+            name=""
+            placeholder="Your password"
+          />
+
+          <input type="submit" name="" id="signSubmit" />
+        </form>
+      </div>
+
+      <!-- starting page now -->
+
+      <div class="landing">
+        <div class="home-wrap">
+          <div class="home-inner"></div>
+        </div>
+      </div>
+
+      <div class="caption text-center">
+        <h1>Gloulou Shop</h1>
+        <h3>online accessories web site</h3>
+        <a href="" class="btn btn-outline-light btn-lg"><h3>Shop Now</h3></a>
+      </div>
+
+      <div class="rotat"></div>
+    </div>
+    <!--- End home Section -->
+
+    <!--- Start vide Section -->
+    <div id="vide" class="offset">
+      <div class="caption2 text-center">
+        <h2>Personalize your bracelet</h2>
+        <h4>Make your own bracelet according to your personality</h4>
+        <h3>Click on the right</h3>
+      </div>
+
+      <div class="rightside">
+        <div class="partie">
+          <img src="res/partie.gif" alt="" />
+        </div>
+        <div class="hole">
+          <img src="res/hole.gif" alt="" />
+        </div>
+      </div>
+    </div>
+    <!--- End vide Section -->
+
+    <!--- Start Course Section -->
+
+    <div id="course" class="offset">
+      <div class="gallerie">
+        <h2>Awesome Products</h2>
+
+        <section id="dg-container" class="dg-container">
+          <div class="dg-wrapper">
+            <a href=""><img src="res/6.jpg" alt=""/></a>
+            <a href=""><img src="res/7.JPG" alt=""/></a>
+            <a href=""><img src="res/8.jpg" alt=""/></a>
+            <a href=""><img src="res/13.jpg" alt=""/></a>
+            <a href=""><img src="res/3.jpg" alt=""/></a>
+          </div>
+
+          <nav>
+            <span class="dg-next">&lt;</span>
+            <span class="dg-prev">&gt;</span>
+          </nav>
+        </section>
+      </div>
+    </div>
+
+    <!--- End Course Section -->
+
+    <!--- Start Course2 Section -->
+    <div id="course2" class="offset">
+      <section>
+        <div class="more">
+          <h2 data-scroll>
+            Here is some more . Check Out !
+          </h2>
+        </div>
+        <div class="gallery">
+          <figure data-scroll>
+            <img src="res/11.JPG" />
+
+            <figcaption>
+              <div class="additional">
+                <p>Click to Command this model</p>
+                <a href="#">Command</a>
+                <a href="#">More Info</a>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure data-scroll>
+            <img src="res/5.JPG" />
+
+            <figcaption>
+              <div class="additional">
+                <p>Click to Command this model.</p>
+                <a href="#">Command</a>
+                <a href="#">More Info</a>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure data-scroll>
+            <img src="res/13.jpg" />
+
+            <figcaption>
+              <div class="additional">
+                <p>Click to Command this model.</p>
+                <a href="#">Command</a>
+                <a href="#">More Info</a>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure data-scroll>
+            <img src="res/14.JPG" />
+
+            <figcaption>
+              <div class="additional">
+                <p>Click to Command this model.</p>
+                <a href="#">Command</a>
+                <a href="#">More Info</a>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure data-scroll>
+            <img src="res/8.jpg" />
+
+            <figcaption>
+              <div class="additional">
+                <p>Click to Command this model.</p>
+                <a href="#">Command</a>
+                <a href="#">More Info</a>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure data-scroll>
+            <img src="res/12.jpg" />
+
+            <figcaption>
+              <div class="additional">
+                <p>Click to Command this model.</p>
+                <a href="#">Command</a>
+                <a href="#">More Info</a>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure data-scroll>
+            <img src="res/11.JPG" />
+
+            <figcaption>
+              <div class="additional">
+                <p>Click to Command this model.</p>
+                <a href="#">Command</a>
+                <a href="#">More Info</a>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure data-scroll>
+            <img src="res/12.JPG" />
+
+            <figcaption>
+              <div class="additional">
+                <p>Click to Command this model.</p>
+                <a href="#">Command</a>
+                <a href="#">More Info</a>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure data-scroll>
+            <img src="res/13.jpg" />
+
+            <figcaption>
+              <div class="additional">
+                <p>Click to Command this model.</p>
+                <a href="#">Command</a>
+                <a href="#">More Info</a>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure data-scroll>
+            <img src="res/14.JPG" />
+
+            <figcaption>
+              <div class="additional">
+                <p>Click to Command this model.</p>
+                <a href="#">Command</a>
+                <a href="#">More Info</a>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure data-scroll>
+            <img src="res/11" />
+
+            <figcaption>
+              <div class="additional">
+                <p>Click to Command this model.</p>
+                <a href="#">Command</a>
+                <a href="#">More Info</a>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure data-scroll>
+            <img src="res/12.jpg" />
+
+            <figcaption>
+              <div class="additional">
+                <p>Click to Command this model.</p>
+                <a href="#">Command</a>
+                <a href="#">More Info</a>
+              </div>
+            </figcaption>
+          </figure>
+          <figure data-scroll>
+            <img src="res/12.jpg" />
+
+            <figcaption>
+              <div class="additional">
+                <p>Click to Command this model.</p>
+                <a href="#">Command</a>
+                <a href="#">More Info</a>
+              </div>
+            </figcaption>
+          </figure>
+          <figure data-scroll>
+            <img src="res/12.jpg" />
+
+            <figcaption>
+              <div class="additional">
+                <p>Click to Command this model.</p>
+                <a href="#">Command</a>
+                <a href="#">More Info</a>
+              </div>
+            </figcaption>
+          </figure>
+          <figure data-scroll>
+            <img src="res/12.jpg" />
+
+            <figcaption>
+              <div class="additional">
+                <p>Click to Command this model.</p>
+                <a href="#">Command</a>
+                <a href="#">More Info</a>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+    </div>
+    <!--- End Course Section -->
+
+    <!-- ending Section  -->
+
+    <div id="ending" class="offset"></div>
+
+    <!--- Script Source Files -->
+    <script src="https://www.gstatic.com/firebasejs/5.0.0/firebase.js"></script>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery.gallery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+    <!-- - End of Script Source Files -->
+  </body>
+</html>
+
+<!--- Check out my course on Udemy! -->

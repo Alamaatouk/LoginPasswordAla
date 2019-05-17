@@ -1,0 +1,117 @@
+html,
+body {
+  padding: 0;
+  background-color: #3193f5;
+}
+
+.centered {
+  text-align: center;
+}
+
+.horoscope {
+  text-align: center;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+
+  padding-right: 28px;
+  top: 50px;
+  width: 45%;
+  height: 100%;
+  display: block;
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+}
+.horoscope img {
+  width: 120px;
+  position: relative;
+  border-radius: 4px;
+  margin: 10px 0px 10px 0px;
+  transition: transform 0.3s;
+}
+.horoscope img:hover {
+  cursor: pointer;
+  transform: scale(1.4);
+  box-shadow: 2px 2px 2px #000;
+  z-index: 2;
+  transition: transform 0.3s;
+}
+
+.contact-text {
+  float: left;
+  margin: 1em 1em 3em 1em;
+  color: white;
+  font-weight: 100;
+  font-size: 26px;
+}
+
+.contact-text span {
+  color: #27e394;
+}
+
+form {
+  position: relative;
+  margin-top: 100px;
+  /* clear: right; */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  width: 60%;
+}
+input:not(:last-child) {
+  width: 460px;
+  border: solid 2px white;
+  line-height: 40px;
+  outline: none;
+  padding: 0;
+  margin: 0.4em 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+textarea {
+  width: 460px;
+  border: none;
+  resize: none;
+  outline: none;
+  padding: 0;
+  margin: 0.7em;
+  margin-left: 5%;
+  line-height: 40px;
+  border: solid 3px white;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+::-webkit-input-placeholder {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+input:last-child {
+  background-color: #27e394;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: solid white 2px;
+  border-radius: 100px;
+  padding: 0.75em 2em;
+  float: right;
+  margin-right: 0.7em;
+  margin-top: 150px;
+}
+input:last-child:hover {
+  background-color: #17c67c;
+}
+
+.alert {
+  margin-bottom: 1em;
+  padding: 10px;
+  background: #49b0e7;
+  font-family: "Mukta Mahee", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  border-radius: 2.5px;
+  display: none;
+}

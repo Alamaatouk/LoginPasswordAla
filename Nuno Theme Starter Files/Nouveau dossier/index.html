@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="horoscope">
+      <div class="row centered">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <img
+            id="a"
+            src="res/Sans titre 21.jpg"
+            alt=""
+            class="img-responsive"
+          />
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <img
+            id="b"
+            src="res/Sans titre 22.jpg"
+            alt=""
+            class="img-responsive"
+          />
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <img src="res/Sans titre 23.jpg" alt="" class="img-responsive" />
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <img src="res/Sans titre 24.jpg" alt="" class="img-responsive" />
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <img src="res/Sans titre 25.jpg" alt="" class="img-responsive" />
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <img src="res/Sans titre 26.jpg" alt="" class="img-responsive" />
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <img src="res/Sans titre 27.jpg" alt="" class="img-responsive" />
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <img src="res/Sans titre 28.jpg" alt="" class="img-responsive" />
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <img src="res/Sans titre 29.jpg" alt="" class="img-responsive" />
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <img src="res/Sans titre 30.jpg" alt="" class="img-responsive" />
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <img src="res/Sans titre 31.jpg" alt="" class="img-responsive" />
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <img src="res/Sans titre 32.jpg" alt="" class="img-responsive" />
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="alert">Your message has been sent!</div>
+
+      <h1 class="contact-text">Choose <span>Your Horoscope</span></h1>
+      <h1 id="horos"></h1>
+      <form id="contactForm" action="">
+        <input type="text" name="name" placeholder="Name" id="text" />
+        <input
+          type="text"
+          name="profile"
+          placeholder="Your Profile URL"
+          id="text2"
+        />
+        <input type="hidden" id="combo" value="" />
+        <!-- <textarea
+          name="message"
+          id=""
+          rows="2"
+          placeholder="Describe it"
+          id="text2"
+        ></textarea> -->
+
+        <input type="submit" name="" id="" value="Send your command" />
+      </form>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
